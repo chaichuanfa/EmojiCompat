@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <com.felix.emojicompat.EmojiconTextView
+            android:id="@+id/txtEmojicon"
+            android:text="I \ue32d emojicon"
+            emojicon:emojiconAlignment="baseline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    <com.felix.emojicompat.EmojiconEditText
+            android:id="@+id/editEmojicon"
+            android:text="I \ue32d emojicon"
+            emojicon:emojiconSize="28sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    <fragment
+            android:id="@+id/emojicons"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            class="com.felix.emojicompat.EmojiconsFragment"
+            />
+</LinearLayout>
