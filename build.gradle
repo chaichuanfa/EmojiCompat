@@ -26,3 +26,12 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+ext {
+    androidCompileSdkVersion = 24
+    androidBuildToolsVersion = '25.0.2'
+    androidSupportSdkVersion = '24.+'
+    minSdkVersion = 16
+    targetSdkVersion = 24
+    applicationId = "com.felix.emojidemo"
+}

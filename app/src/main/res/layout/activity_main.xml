@@ -7,10 +7,9 @@
         android:orientation="vertical"
         >
 
-    <com.felix.emojicompat.EmojiconTextView
+    <TextView
             android:id="@+id/txtEmojicon"
             android:text="I \ue32d emojicon"
-            emojicon:emojiconAlignment="baseline"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             />
@@ -29,4 +28,5 @@
             android:layout_height="220dp"
             class="com.felix.emojicompat.EmojiconsFragment"
             />
+
 </LinearLayout>
