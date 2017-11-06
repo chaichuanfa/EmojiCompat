@@ -27,5 +27,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.+'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     testCompile 'junit:junit:4.12'
-    compile project(':emoji-compat')
+//    compile project(':emoji-compat')
+    compile 'com.github.chaichuanfa:emoji-compat:0.0.1'
 }
